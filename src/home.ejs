@@ -1,34 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="images/favicon.ico" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="images/favicon.ico">
+    <title>ADHDme</title>
 
-  <title>ADHDme</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/common.css">
-</head>
-
-<body>
-
-  <% include /src/include/header.ejs %>
+  <body>
+    <% include /src/include/header.ejs %>
 
     <main id="ad-page-index">
       <section class="banner-box">
-
         <div class="container-fluid">
           <div class="row">
             <div class="banner-bg">
               <div class="banner-content">
                 <div>
-                  <h2 class="display-6 banner-text">ADHDme is an online platform that connects top psychiatrist, with
-                    adult patients with ADHD</h2>
+                  <h2 class="display-6 banner-text">
+                    ADHDme is an online platform that connects top psychiatrist,
+                    with adult patients with ADHD
+                  </h2>
                   <div class="banner-btn">
-                    <a href="#" class="btn btn-lg btn-info btn-start">Get started</a>
+                    <a href="#" class="btn btn-lg btn-info btn-start"
+                      >Get started</a
+                    >
                   </div>
                 </div>
               </div>
@@ -38,51 +42,66 @@
           <div class="row">
             <div class="work-info">
               <div class="container">
-                <div class="row">
-
-                  <div class="col-md-4">
+                <div class="row work-info-row">
+                  <div class="col-md-4 work-info-col">
                     <div class="cmn-work-info">
-                      <h5>Working together with UK psychiatrists that specialise in ADHD</h5>
+                      <h5>
+                        Working together with UK psychiatrists that specialise
+                        in ADHD
+                      </h5>
                     </div>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-md-4 work-info-col">
                     <div class="cmn-work-info">
-                      <h5>All assessments and consultations would be done online</h5>
+                      <h5>
+                        All assessments and consultations would be done online
+                      </h5>
                     </div>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-md-4 work-info-col">
                     <div class="cmn-work-info">
-                      <h5>Avoid long waiting lists to have your ADHD assessment</h5>
+                      <h5>
+                        Avoid long waiting lists to have your ADHD assessment
+                      </h5>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </section>
-      
+
       <section class="video-section">
         <div class="container">
           <div class="row">
-             <div class="video-title">
-                <h2 class="display-6">Getting started with your ADHD Assessment</h2>
-                <p class="video-detail">The best thing about ADHDme is that it is simple to use with everything being available on our platform. Check out the video below to find out more.</p>
-             </div>
-           </div>
+            <div class="video-title">
+              <h2 class="display-6">
+                Getting started with your ADHD Assessment
+              </h2>
+              <p class="video-detail">
+                The best thing about ADHDme is that it is simple to use with
+                everything being available on our platform. Check out the video
+                below to find out more.
+              </p>
+            </div>
+            <div class="video-box">
+              <div class="ratio ratio-16x9">
+                <video width="320" height="240" controls>
+                  <source src="video/natu.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-
     </main>
 
     <% include /src/include/footer.ejs %>
 
-      <script src="js/home.js"></script>
-
-</body>
-
+    <script src="js/home.js"></script>
+  </body>
 </html>
