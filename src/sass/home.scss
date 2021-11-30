@@ -20,44 +20,44 @@
         text-align: center;
       }
     }
-  } 
+  }
 
-      .work_box{
-        background-color: #27348b0d;
-      .work-info-row {
-        padding: 30px 0;
-        .work-info-col {
-          .cmn-work-info {
-            position: relative;
-            color: $primary;
-            max-width: 355px;
-            text-align: center;
-            line-height: 24px;
-            font-weight: 600;
-            h5{
-              font-weight: 500;
-            }
-            &::after {
-              position: absolute;
-              content: "";
-              top: 0;
-              left: 390px;
-              width: 0;
-              height: 62px;
-              border: 3px solid #27348b80;
-              opacity: 0.5;
-            }
+  .work_box {
+    background-color: #27348b0d;
+    .work-info-row {
+      padding: 30px 0;
+      .work-info-col {
+        .cmn-work-info {
+          position: relative;
+          color: $primary;
+          max-width: 355px;
+          text-align: center;
+          line-height: 24px;
+          font-weight: 600;
+          h5 {
+            font-weight: 500;
           }
-          &:last-child {
-            .cmn-work-info {
-              &::after {
-                display: none;
-              }
+          &::after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 390px;
+            width: 0;
+            height: 62px;
+            border: 3px solid #27348b80;
+            opacity: 0.5;
+          }
+        }
+        &:last-child {
+          .cmn-work-info {
+            &::after {
+              display: none;
             }
           }
         }
       }
-    } 
+    }
+  }
   /*banner section end */
 
   /*video section start*/
@@ -154,67 +154,72 @@
   /*Work choose section start*/
   .adhd_work_choose {
     padding-top: 200px;
-    .work-choose-bg {
-      background-image: url(../images/green-bg.png);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      .work-choose-mobile{
+    background-image: url(../images/green-bg.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+      .work-choose-mobile {
         max-width: 549px;
-        margin: 0 auto;
-         img{
-           object-fit: cover;
-         }
-      }
-      .work-choose-info{
-       padding-top: 75px; 
-      .work-choose-title{
-        font-weight: 600;
+        img {
+          object-fit: cover;
         }
-      ul{
-        li{
-          list-style: none;
-          padding: 10px 0;
-          .cmn-work-choose-text{
-            font-size: 1.25rem;
-            font-weight: 400;
-            padding: 0 10px;
+      }
+      .work-choose-info {
+        padding-top: 75px;
+        .work-choose-title {
+          font-weight: 600;
+        }
+        ul {
+          li {
+            list-style: none;
+            padding: 10px 0;
+            display: flex;
+            .icon{
+              width: 30px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              margin-right: 15px;
+            }
+            .cmn-work-choose-text {
+              font-size: 1.25rem;
+              font-weight: 400;
+              padding: 0 10px;
+            }
           }
-         }
-       } 
-     }
-    }
+        }
+      }
   }
-/*Work choose section end*/
+  /*Work choose section end*/
 
-/*Adhd expert box start*/
-.adhd_expert_box{
+  /*Adhd expert box start*/
+  .adhd_expert_box {
     background-image: url("../images/purple-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    .adhd-expert-wrapper{
+    .adhd-expert-wrapper {
       padding-top: 200px;
       max-width: 646px;
       margin: 0 auto;
-    .adhd-expert-title{
-      font-weight: 600;
-     }
-    .adhd-expert-info{
-      padding-top: 40px;
-      color: $primary;
-      font-size: 1.25rem;
-      font-weight: 600;
-      line-height: 35px;
-    }  
+      .adhd-expert-title {
+        font-weight: 600;
+      }
+      .adhd-expert-info {
+        padding-top: 40px;
+        color: $primary;
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 35px;
+      }
     }
-    .adhd-expert-image{
+    .adhd-expert-image {
       padding-top: 44px;
-      img{
+      img {
         object-fit: cover;
       }
     }
-    .adhd-expert-square{
+    .adhd-expert-square {
       max-width: 415px;
       width: 100%;
       height: 467px;
@@ -222,71 +227,71 @@
       border: $border-color;
       //margin: 0 auto;
     }
-    .adhd-expert-square-wrapper{
+    .adhd-expert-square-wrapper {
       padding-top: 100px;
-    .adhd-square-title{
-      color: $primary;
-      line-height: 50px;
-      font-weight: 600;
+      .adhd-square-title {
+        color: $primary;
+        line-height: 50px;
+        font-weight: 600;
+      }
+      .adhd-square-name {
+        font-family: $text-font;
+        padding-top: 50px;
+        font-weight: 700;
+      }
+      .adhd-sqaure-qual {
+        font-family: $text-font;
+        font-weight: 700;
+      }
+      .adhd-square-exp {
+        font-family: $text-font;
+        font-weight: 600;
+      }
     }
-    .adhd-square-name{
-      font-family: $text-font;
-      padding-top: 50px;
-      font-weight: 700;
-    }
-    .adhd-sqaure-qual{
-      font-family: $text-font;
-      font-weight: 700;
-    }  
-    .adhd-square-exp{
-      font-family: $text-font;
-      font-weight: 600;
-    }
-    }
-    .adhd-expert-square-text{
+    .adhd-expert-square-text {
       font-size: 1.25rem;
     }
-    .adhd-expert-btn{
+    .adhd-expert-btn {
       padding-top: 100px;
       text-align: center;
     }
- }
-/*Adhd expert box end*/
-  .adhd_blog{
+  }
+  /*Adhd expert box end*/
+  .adhd_blog {
     padding-top: 80px;
     border-top: 2px solid $primary;
     margin-top: 120px;
-    .cmn-adhd-blog-box{
+    .cmn-adhd-blog-box {
       max-width: 343px;
       border-radius: 20px;
       border: $border-color;
-      .cmn-adhd-box-text{
+      .cmn-adhd-box-text {
         text-align: center;
         padding: 70px 0;
       }
     }
-    .cmn-adhd-blog-info{
+    .cmn-adhd-blog-info {
       padding: 20px 0 200px 0;
-      .cmn-blog-name{
-        color: #27348B7B;
+      .cmn-blog-name {
+        color: #27348b7b;
         font-weight: 600;
         font-family: $text-font;
       }
-      .cmn-blog-title{
+      .cmn-blog-title {
         font-family: $text-font;
-        font-weight: 700;  
-       }
-       .cmn-blog-text{
-         font-family: $text-font;
-         font-weight: 300;
-       }  
-      .cmn-blog-read{
+        font-weight: 700;
+      }
+      .cmn-blog-text {
+        font-family: $text-font;
+        font-weight: 300;
+      }
+      .cmn-blog-read {
         font-family: $text-font;
         font-size: 1.25rem;
         font-weight: 600;
         color: $primary;
         text-decoration: underline;
       }
-    } 
+    }
   }
 }
