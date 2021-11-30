@@ -1,15 +1,15 @@
 footer.ad-footer {
     background-color: $primary;
-  .footer-info{
+  .footer_info{
       padding: 45px 0;
-      font-size: 25px;
+      font-size: 1.25rem;
       line-height: 30px;
       a{
         color: #fff;
       }
       h5{
         color: #fff;  
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
         margin-bottom: 30px;
       }
@@ -17,14 +17,14 @@ footer.ad-footer {
           border-top: 3px solid rgba(255,255,255,0.5);
           border-bottom: 3px solid rgba(255,255,255,0.5);
           padding: 30px 0;
-       .footer-logo{
+       
         .logo-text{
             color: #fff;
-            font-family: "nudista";
+            font-family: $text-font;
         }
         .social-icon{
             padding: 24px 0;
-            font-size: 42px;
+            font-size: 2.62rem;
             list-style: none;
             margin: 0;
             padding: 0;
@@ -34,7 +34,7 @@ footer.ad-footer {
 
             }
         }
-       } 
+    
        .quick{
         
         ul{
