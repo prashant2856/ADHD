@@ -1,7 +1,5 @@
 @import "fonts";
 
-// Variables
-//@import "md_variables";
 @import "variables";
 
 // scss-docs-start import-stack
@@ -17,7 +15,3 @@
 @import 'footer';
 @import 'home';
 @import 'form';
-
-body{
-   font-family: "Montserrat", sans-serif; 
-}
