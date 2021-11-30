@@ -1,150 +1,285 @@
 #ad-page-index {
+  /*banner section start here*/
 
-/*banner section start here*/
-
-  .banner-box{
-    .banner-bg{ 
-      background-color: #686D8E;
-      border: 1px solid #707070;  
-      .banner-content{
-       display: flex;
-       align-items: center;
-       justify-content: center; 
-      .banner-text{
-        padding-top: 152px;   
-        text-align: center;  
-        max-width: 774px; 
-        color: #FFFFFF;  
-        line-height: 54px;
-        font-weight: 600;  
+  .banner-box {
+    .banner-bg {
+      background-color: #686d8e;
+      border: 1px solid #707070;
+      .banner-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .banner-text {
+          padding-top: 152px;
+          text-align: center;
+          max-width: 774px;
+          color: #ffffff;
+          line-height: 54px;
+          font-weight: 600;
         }
-        .banner-btn{
-         padding: 85px 0;
-         text-align: center;   
-        .btn-start{  
-          color: #FCFCFF;
-          font-size: 31px;   
-          border-radius: 25px;
-          background-color: #38A3CB;
-          box-shadow: 0px 3px 3px #00000029;
-          border: none;  
+        .banner-btn {
+          padding: 85px 0;
+          text-align: center;
         }
-       } 
       }
-     }
-     .work-info{
-      background-color: #27348B0D;
+    }
+    .work-info {
+      background-color: #27348b0d;
       padding: 31px 0;
-      .work-info-row{
-        .work-info-col{
-          .cmn-work-info{
+      .work-info-row {
+        .work-info-col {
+          .cmn-work-info {
             position: relative;
             color: $primary;
             max-width: 355px;
             text-align: center;
             line-height: 24px;
             font-weight: 600;
-           &::after{
-            position: absolute;
-            content: '';
-            top:0;
-            left:390px;
-            width: 0;
-            height: 62px;
-            border: 3px solid #27348B80;
-            opacity: 0.5;
+            &::after {
+              position: absolute;
+              content: "";
+              top: 0;
+              left: 390px;
+              width: 0;
+              height: 62px;
+              border: 3px solid #27348b80;
+              opacity: 0.5;
+            }
           }
-          }
-          &:last-child{
-            .cmn-work-info{
-              &::after{
+          &:last-child {
+            .cmn-work-info {
+              &::after {
                 display: none;
               }
             }
           }
         }
       }
-      
-    }  
+    }
   }
-/*banner section end */ 
+  /*banner section end */
 
-/*video section start*/
+  /*video section start*/
 
-.video-section{
-  background-color: #FFFFFF;
-  padding: 85px 0;
-  border-bottom: 2px solid $primary;
-  .video-title{
-    text-align: center;
-    max-width: 604px;
-    color: $primary;
-    line-height: 50px;
-    font-weight: bold;
-    margin: 0 auto;
-    .video-detail{
-      padding: 24px 0;
-      color: $primary;
-      font-size: 19px;
+  .video-section {
+    background-color: #ffffff;
+    padding: 85px 0;
+    border-bottom: 2px solid $primary;
+    .video-title {
       text-align: center;
-      font-weight: 400;
-      line-height: 23px;
-     }
-   }
-   .video-box{ 
-    max-width: 1000px;
-    background-color: #fff;
-    border: 1px solid #707070;
-    margin: 0 auto;
-    .video-text{
+      max-width: 604px;
       color: $primary;
-      font-size: 70px;
-      font-weight: 400;
+      line-height: 50px;
+      font-weight: bold;
+      margin: 0 auto;
+      .video-detail {
+        padding: 24px 0;
+        color: $primary;
+        font-size: 19px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 23px;
+      }
+    }
+    .video-box {
+      max-width: 1000px;
+      background-color: #fff;
+      border: 1px solid #707070;
+      margin: 0 auto;
+      .video-text {
+        color: $primary;
+        font-size: 70px;
+        font-weight: 400;
+      }
     }
   }
- }
- /*video section end*/
+  /*video section end*/
 
- /*work section start*/
- .adhd-work-box{
-   padding-top: 85px;
-   .work-title{
-     text-align: center;
-     font-weight: 600;
+  /*work section start*/
+  .adhd-work-box {
+    padding-top: 85px;
+    .work-title {
+      text-align: center;
+      font-weight: 600;
     }
-   .cmn-box-wrapper{
-     .cmn-img-icon{
-     position: relative;  
-      max-width: 150px;
-      padding-top: 89px;
-       img{
-         width: 100%;
-         object-fit: cover;
-         object-position: center;
-       }
-       .cmn-box-title{
-         padding-top: 30px;
-         text-align: center;
-         line-height: 30px;
-       }
-       .cmn-box-text{
-         color: #000000;
-         text-align: center;
-         font-size: 14px;
-         font-weight: 400;
-         line-height: 20px;
-       }
-      &::after{
-        position: absolute;
-        content: '';
-        left: 50%;
-        top: 50%;
-        width: 25px;
-        height: 24px;
-        background: url("../images/arrow-right.svg") no-repeat;
-        background-size: cover;
+
+    .work-detail-col {
+      &:last-child {
+        .cmn-img-icon {
+          figure {
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+      .cmn-img-icon {
+        text-align: center;
+        max-width: 270px;
+        margin: 90px auto 0 auto;
+        position: relative;
+        figure {
+          margin: 0;
+          height: 150px;
+          position: relative;
+          &::after {
+            position: absolute;
+            content: "";
+            right: -12px;
+            top: 50%;
+            margin-top: -12px;
+            width: 24px;
+            height: 24px;
+            background: url("../images/arrow-right.svg") no-repeat;
+            background-size: cover;
+          }
+          img {
+            width: auto;
+            height: 150px;
+          }
+        }
+        .cmn-box-title {
+          padding-top: 30px;
+          line-height: 30px;
+        }
+        .cmn-box-text {
+          color: #000000;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+    }
+    .work-btn {
+      padding: 85px 0;
+      text-align: center;
+    }
+  }
+  /*Work section end*/
+
+  /*Work choose section start*/
+  .adhd-work-choose {
+    padding-top: 200px;
+    .work-choose-bg {
+      background-image: url(../images/green-bg.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      .work-choose-mobile{
+        max-width: 549px;
+        margin: 0 auto;
+         img{
+           object-fit: cover;
+         }
+      }
+      .work-choose-info{
+       padding-top: 75px; 
+       max-width: 750px; 
+      .work-choose-title{
+        font-weight: 600;
+      }
+      ul{
+        li{
+          list-style: none;
+          padding: 10px 0;
+          .cmn-work-choose-text{
+            font-size: 20px;
+            font-weight: 400;
+            padding: 0 10px;
+          }
+         }
       } 
      }
-   }
+    }
+  }
+/*Work choose section end*/
+
+/*Adhd expert box start*/
+.adhd-expert-box{
+  .expert-box-bg{
+    background-image: url("../images/purple-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .adhd-expert-wrapper{
+      padding-top: 200px;
+      max-width: 646px;
+      margin: 0 auto;
+    .adhd-expert-title{
+      text-align: center;
+      font-weight: 600;
+    }
+    .adhd-expert-info{
+      padding-top: 40px;
+      color: $primary;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 35px;
+    }  
+    }
+    .adhd-expert-image{
+      padding-top: 44px;
+      img{
+        object-fit: cover;
+      }
+    }
+    .adhd-expert-square{
+      max-width: 415px;
+      width: 100%;
+      height: 467px;
+      border-radius: 38px;
+      border: 1px solid #707070;
+      //margin: 0 auto;
+    }
+    .adhd-expert-square-wrapper{
+      padding-top: 100px;
+      max-width: 570px;
+    .adhd-square-title{
+      color: $primary;
+      line-height: 50px;
+      font-weight: 600;
+    }
+    .adhd-square-name{
+      padding-top: 50px;
+      font-weight: 600;
+    }  
+    }
+    .adhd-expert-square-text{
+      font-size: 20px;
+    }
+    .adhd-expert-btn{
+      padding-top: 100px;
+      text-align: center;
+    }
+  }
  }
+/*Adhd expert box end*/
+  .adhd-blog{
+    padding-top: 80px;
+    border-top: 2px solid $primary;
+    margin-top: 120px;
+    .cmn-adhd-blog-box{
+      max-width: 343px;
+      border-radius: 20px;
+      border: 1px solid #707070;
+      .cmn-adhd-box-text{
+        text-align: center;
+        padding: 70px 0;
+      }
+    }
+    .cmn-adhd-blog-info{
+      padding: 20px 0 200px 0;
+      .cmn-blog-text{
+        color: #27348B7B;
+        font-weight: bold;
+      }
+      .cmn-blog-read{
+        font-size: 20px;
+        font-weight: 600;
+        color: $primary;
+        text-decoration: underline;
+      }
+    } 
+  }
 }

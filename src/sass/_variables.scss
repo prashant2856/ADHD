@@ -6,6 +6,8 @@
 $primary: #27348B;
 // $info: #dcad1a;
 
+$info : #38A3CB;
+
 $border-radius: 5px;
 
 $textClr: #27348B;
@@ -13,9 +15,11 @@ $textClr: #27348B;
 $body-bg : #fff;
 
 //fonts
-$font-family-base: "Montserrat", sans-serif;
-$headings-font-weight: 600;
+$font-family-base: 'Nudista';
+$headings-font-weight: 400;
 $headings-color: $primary;
+
+$headings-font-family: "Malaga OTCE";
 
 //gutter
 $grid-gutter-width: 16px;
@@ -29,7 +33,6 @@ $navbar-light-active-color: $textClr;
 
 
 //button
-
 //
 // $input-btn-padding-y:7px;
 // $input-btn-padding-x:25px;

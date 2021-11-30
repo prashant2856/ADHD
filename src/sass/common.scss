@@ -1,4 +1,4 @@
-@import "fonts-montserrat";
+@import "fonts";
 
 // Variables
 //@import "md_variables";
@@ -16,6 +16,7 @@
 @import 'header';
 @import 'footer';
 @import 'home';
+@import 'form';
 
 body{
    font-family: "Montserrat", sans-serif; 

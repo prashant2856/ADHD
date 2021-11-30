@@ -1,34 +1,21 @@
 .btn {
-    font-weight: 500;
-    font-size: 14px;
-    @include media-breakpoint-up(md) {
-        font-weight: 16px;
+    font-weight: 600;
+    &.btn-start {
+        color: #FCFCFF;
+        font-size: 31px;   
+        border-radius: 25px;
+        background-color: #38A3CB;
+        box-shadow: 0px 3px 3px #00000029;
+        border: none;  
     }
-    &.md-btn-34 {
-        font-size: 12px;
-        font-weight: 500;
-        text-transform: uppercase;
-        @include media-breakpoint-up(xl) {
-            font-size: 14px;
-            line-height: 20px;
-        }
+    &.btn-info{
+        color: #FCFCFF;
     }
-
-    &.md-btn-gradiant {
-        background: transparent linear-gradient(90deg, #ef8f21 0%, #f9a838 100%)
-            0% 0% no-repeat padding-box;
-        color: white;
-        &:hover {
-            color: white;
-            background: transparent
-                linear-gradient(90deg, #f9a838 0%, #ef8f21 100%) 0% 0% no-repeat
-                padding-box;
-        }
+    &.btn-lg{
+        border-radius: 25px;
+        font-size: 30px;
     }
-    &.btn-outline-primary {
-        &:hover {
-            color: $white;
-            background-color: $primary;
-        }
+    &.btn-box-shadow{
+        box-shadow: 0px 3px 3px #00000029;
     }
 }
