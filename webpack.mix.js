@@ -21,6 +21,11 @@ mix.webpackConfig({
       filename: "index.html",
       inject: false,
     }),
+    new HtmlWebpackPlugin({
+      template: "ejs-compiled-loader!./src/about.ejs",
+      filename: "about.html",
+      inject: false,
+    }),
   ],
   devServer: {
     hot: true,

@@ -1,0 +1,41 @@
+#ad-page-about {
+/*About us section start*/  
+  .adhd_about{
+     padding-top: 75px; 
+     border-top: 2px solid $primary;
+    .adhd_about_title{
+      max-width: 1120px;
+      color: $primary;  
+      font-weight: 600;
+      text-align: center;
+      margin: 0 auto;
+    .adhd-about-subtitle{
+      padding:30px 0;
+      font-family: $text-font;
+      font-weight: 700;  
+    }
+    .adhd-about-info{
+      color: $primary;
+      font-size: 1.25rem;
+      text-align: left;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    ul{
+       margin: 20px 0;
+       li{
+         list-style: none;
+         text-align: left;
+         font-size: 1.25rem;
+         font-weight: 600;
+       }
+     }  
+    }
+  }
+/*About us section end*/
+
+/*Location section start*/
+  .adhd-location{
+    padding-top: 150px; 
+  }  
+}
