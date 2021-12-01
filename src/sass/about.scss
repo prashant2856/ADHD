@@ -1,16 +1,16 @@
 #ad-page-about {
 /*About us section start*/  
   .adhd_about{
-     padding-top: 75px; 
+     padding-top: 4.5rem; 
      border-top: 2px solid $primary;
-    .adhd_about_title{
+    .adhd-about-title{
       max-width: 1120px;
       color: $primary;  
       font-weight: 600;
       text-align: center;
       margin: 0 auto;
     .adhd-about-subtitle{
-      padding:30px 0;
+      padding: 2rem 0;
       font-family: $text-font;
       font-weight: 700;  
     }
@@ -35,7 +35,26 @@
 /*About us section end*/
 
 /*Location section start*/
-  .adhd-location{
-    padding-top: 150px; 
+  .adhd_location{
+    padding-top: 5rem;
+    background-image: url("../images/green-bg.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  .adhd-box-img{
+    border-radius: 44px;
+    border: $border-color;
+    width: 418px;
+    height: 418px;  
+  }
+  .adhd-loc-text{
+    max-width: 307px;
+    margin: 0 auto;
+  }
+  .adhd-loc-box{
+    border: $border-color;
+    width: 418px;
+    height: 418px;  
+  }  
   }  
 }
